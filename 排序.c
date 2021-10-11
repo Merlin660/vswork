@@ -13,7 +13,7 @@ int main()
     for(i=0;i<=10;i++) //依次判断a[0]~a[10] 
         for(j=1;j<=a[i];j++) //出现了几次就打印几次
             printf("%d ",i);
-    // getchar();getchar();
+    getchar();getchar();
     //这里的getchar();用来暂停程序，以便查看程序输出的内容 
     //也可以用system("pause");等来代替
     return 0;
